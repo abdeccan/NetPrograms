@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "o3GTPfyVxEn52pxHuhlQspD8PcpvmEEEJJ95kISyDZ0a3MnlGCscH4uYJR3cHCWx3nINjT00PvZfIG4l4myZ7g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\anujan\\source\\repos\\.net\\TestProject1\\TestProject1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anujan\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\anujan\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

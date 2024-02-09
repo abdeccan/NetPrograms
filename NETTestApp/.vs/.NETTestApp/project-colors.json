@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a4f650e4-8914-4ecc-93fb-083188e808ee": {
+      "ProjectGuid": "a4f650e4-8914-4ecc-93fb-083188e808ee",
+      "DisplayName": ".NETTestApp",
+      "ColorIndex": 0
+    },
+    "48fffc5b-2e67-4a13-bacd-84cbc2112d73": {
+      "ProjectGuid": "48fffc5b-2e67-4a13-bacd-84cbc2112d73",
+      "DisplayName": "TestProject1",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
