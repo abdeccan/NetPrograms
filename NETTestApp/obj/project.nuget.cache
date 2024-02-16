@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MJwzbk04ZexRSdRqAjSS31jk/aUv/PoRkaQIo2VPdQhXaVnKxpaR56QE4w1XPt+rl2yOp98sMxfBSw1EP+ga1A==",
+  "dgSpecHash": "opI1vQqVq2zskV+pMIYdSuLkwaSzduXTJxR0yQ0Cs3nJCD+zR4me5J8wyWgDGD1b+tmzovYA7j2mAgsjis+dpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anujan\\source\\repos\\.net\\ConsoleApp1\\.NETTestApp.csproj",
+  "projectFilePath": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\NETTestApp\\NETTestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anujan\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
     "C:\\Users\\anujan\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512"

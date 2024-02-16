@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = ".NETTestApp", ".NETTestApp.csproj", "{A4F650E4-8914-4ECC-93FB-083188E808EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETTestApp", "NETTestApp.csproj", "{A4F650E4-8914-4ECC-93FB-083188E808EE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{48FFFC5B-2E67-4A13-BACD-84CBC2112D73}"
 EndProject

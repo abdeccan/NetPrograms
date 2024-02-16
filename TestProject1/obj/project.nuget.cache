@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o3GTPfyVxEn52pxHuhlQspD8PcpvmEEEJJ95kISyDZ0a3MnlGCscH4uYJR3cHCWx3nINjT00PvZfIG4l4myZ7g==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\anujan\\source\\repos\\.net\\TestProject1\\TestProject1.csproj",
+  "dgSpecHash": "5uupVd2mWs18Y9BPkvjrzlBzgs2LNhtIgze2+ugiXbxuAc23fLoopUdX2scaGWFjQSoVdOHzJU62D6To7LVZJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anujan\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\anujan\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
@@ -15,15 +15,5 @@
     "C:\\Users\\anujan\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\anujan\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

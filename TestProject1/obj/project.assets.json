@@ -333,6 +333,20 @@
         "runtime": {
           "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
         }
+      },
+      "NETTestApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NUnit": "4.0.1",
+          "NUnit3TestAdapter": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/NETTestApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NETTestApp.dll": {}
+        }
       }
     }
   },
@@ -764,12 +778,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "NETTestApp/1.0.0": {
+      "type": "project",
+      "path": "../NETTestApp/NETTestApp.csproj",
+      "msbuildProject": "../NETTestApp/NETTestApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "NETTestApp >= 1.0.0",
       "NUnit >= 4.0.1",
       "NUnit3TestAdapter >= 4.5.0",
       "coverlet.collector >= 6.0.0"
@@ -781,11 +800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anujan\\source\\repos\\.net\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\anujan\\source\\repos\\.net\\TestProject1\\TestProject1.csproj",
+      "projectPath": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\TestProject1\\TestProject1.csproj",
       "packagesPath": "C:\\Users\\anujan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anujan\\source\\repos\\.net\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anujan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -802,8 +821,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj": {
-              "projectPath": "C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj"
+            "C:\\Users\\anujan\\source\\repos\\NetPrograms\\NETTestApp\\NETTestApp.csproj": {
+              "projectPath": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\NETTestApp\\NETTestApp.csproj"
             }
           }
         }
@@ -852,19 +871,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.126\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\anujan\\source\\repos\\.net\\NETTestApp\\.NETTestApp.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

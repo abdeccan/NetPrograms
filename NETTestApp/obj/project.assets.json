@@ -91,11 +91,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anujan\\source\\repos\\.net\\ConsoleApp1\\.NETTestApp.csproj",
-      "projectName": ".NETTestApp",
-      "projectPath": "C:\\Users\\anujan\\source\\repos\\.net\\ConsoleApp1\\.NETTestApp.csproj",
+      "projectUniqueName": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\NETTestApp\\NETTestApp.csproj",
+      "projectName": "NETTestApp",
+      "projectPath": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\NETTestApp\\NETTestApp.csproj",
       "packagesPath": "C:\\Users\\anujan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anujan\\source\\repos\\.net\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\anujan\\source\\repos\\NetPrograms\\NETTestApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anujan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,7 +148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.126\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.127\\RuntimeIdentifierGraph.json"
       }
     }
   }
