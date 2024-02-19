@@ -5,6 +5,19 @@ class Program
     
     public static void Main(string[] args)
     {
+        string[] bulkInput = {
+                                "file1.txt 100",
+                                "file2.txt 200 collection1",
+                                "file3.txt 200 collection1,collection2",
+                                "file4.txt 300 collection2",
+                                "file5.txt 100" 
+                             };
+        CollectionOfFiles cof = new CollectionOfFiles(bulkInput);
+        Console.WriteLine($"Total file size is {cof.GetTotalFileSize()}");
+        foreach (Tuple<string, int> tup in cof.GetTopKCollections(2)) {
+            Console.WriteLine($"{tup.Item1}: {tup.Item2}");
+        }
+
         int[] times = { 0, 5, 10, 15, 20, 25, 30 };
         int val = 5;
         int index = ~Array.BinarySearch(times, val);
