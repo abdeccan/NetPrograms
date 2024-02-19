@@ -47,6 +47,8 @@ namespace NETTestApp
 
             public int CompareTo(Employee? other)
             {
+                if (other == null)
+                    return 1;
                 if (this._id > other._id)
                     return 1;
                 else if (this._id < other._id)

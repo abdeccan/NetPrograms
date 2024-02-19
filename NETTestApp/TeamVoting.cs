@@ -9,8 +9,13 @@ namespace NETTestApp
     internal class TeamVoting
     {   public string RankTeams(string[] votes)
         {
-            if (votes.Length == 1)
+            int numTeams = votes.Length;
+
+            if (numTeams == 1)
                 return votes[0];
+
+            // for each position we need 'numTeams' maps 
+            Dictionary<char, int>[] positionMaps = new Dictionary<char, int>[numTeams]; 
 
             return String.Empty;
         }

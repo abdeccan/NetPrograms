@@ -5,6 +5,25 @@ class Program
     
     public static void Main(string[] args)
     {
+        int[] times = { 0, 5, 10, 15, 20, 25, 30 };
+        int val = 5;
+        int index = ~Array.BinarySearch(times, val);
+
+        int[] persons = { 0, 1, 1, 0, 0, 1, 0 };
+        TopVotedCandidate tvc = new TopVotedCandidate(persons, times);
+        int winner = tvc.Q(8);
+        Console.WriteLine(winner);
+        winner = tvc.Q(12);
+        Console.WriteLine(winner);
+        winner = tvc.Q(25);
+        Console.WriteLine(winner);
+        winner = tvc.Q(15);
+        Console.WriteLine(winner);
+        winner = tvc.Q(24);
+        Console.WriteLine(winner);
+        winner = tvc.Q(8);
+        Console.WriteLine(winner);
+
         PriorityQueueTest priQTest = new PriorityQueueTest();
         int[] nums = new int[] { 10, 20, 40, 50, 25, 12, 15, 6 };
         int kthLargest = priQTest.FindKthLargest(nums, 4);

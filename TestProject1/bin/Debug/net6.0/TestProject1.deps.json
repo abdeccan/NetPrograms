@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "TestProject1/1.0.0": {
         "dependencies": {
-          "ConsoleApp1": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
+          "NETTestApp": "1.0.0",
           "NUnit": "4.0.1",
           "NUnit3TestAdapter": "4.5.0",
           "coverlet.collector": "6.0.0"
@@ -310,13 +310,13 @@
       },
       "NUnit3TestAdapter/4.5.0": {},
       "System.Reflection.Metadata/1.6.0": {},
-      "ConsoleApp1/1.0.0": {
+      "NETTestApp/1.0.0": {
         "dependencies": {
           "NUnit": "4.0.1",
           "NUnit3TestAdapter": "4.5.0"
         },
         "runtime": {
-          "ConsoleApp1.dll": {}
+          "NETTestApp.dll": {}
         }
       }
     }
@@ -397,7 +397,7 @@
       "path": "system.reflection.metadata/1.6.0",
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
     },
-    "ConsoleApp1/1.0.0": {
+    "NETTestApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
