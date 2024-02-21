@@ -2,9 +2,37 @@
 
 class Program
 {
-    
+    public static void DoTest()
+    {
+        int[] nums = {3,0,1 };
+
+        int newSize = nums.Length + 1;
+        int[] tmpArr = Enumerable.Repeat(-1, newSize).ToArray();
+        for (int i = 0; i < nums.Length; i++)
+        {
+            tmpArr[nums[i]] = 0;
+        }
+
+        int index = 0;
+        for (; index < tmpArr.Length; index++)
+        {
+            if (tmpArr[index] == -1)
+                break;
+        }
+        Console.WriteLine($"missing num  {index}");
+
+    }
+
     public static void Main(string[] args)
     {
+        RateLimiter.TestRateLimiter();
+
+        // team voting
+        string[] votes = { "ACBD", "ACBD", "BCDA", "BDCA" };// { "ABC", "ACB", "ABC", "ACB", "ACB" };//{ "WXYZ", "XYZW" }; // 
+        TeamVoting teamVoting = new TeamVoting();
+        string result = teamVoting.RankTeams(votes);
+        Console.WriteLine($"result is {result}");
+
         string[] bulkInput = {
                                 "file1.txt 100",
                                 "file2.txt 200 collection1",
