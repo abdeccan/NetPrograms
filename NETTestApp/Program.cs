@@ -25,10 +25,19 @@ class Program
 
     public static void Main(string[] args)
     {
-        RateLimiter.TestRateLimiter();
+        TrieFileSystem fs = new TrieFileSystem();
+        bool bRet = fs.CreatePath("/leet", 1);
+        bRet = fs.CreatePath("/leet/code", 2);
+        bRet = fs.CreatePath("/leet/code/neat", 3);
+        bRet = fs.CreatePath("/a", 10);
+        bRet = fs.CreatePath("/neat/code", 100);
+
+        int fsVal = fs.Get("/leet/code/neat");
+        fsVal = fs.Get("/leet/code/");
+        fsVal = fs.Get("/leet/neat");
 
         // team voting
-        string[] votes = { "ACBD", "ACBD", "BCDA", "BDCA" };// { "ABC", "ACB", "ABC", "ACB", "ACB" };//{ "WXYZ", "XYZW" }; // 
+        string[] votes = { "ABC", "ACB", "ABC", "ACB", "ACB" }; // { "ACBD", "ACBD", "BCDA", "BDCA" };// //{ "WXYZ", "XYZW" }; // 
         TeamVoting teamVoting = new TeamVoting();
         string result = teamVoting.RankTeams(votes);
         Console.WriteLine($"result is {result}");
