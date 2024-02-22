@@ -25,6 +25,11 @@ class Program
 
     public static void Main(string[] args)
     {
+        TownJudge tj = new TownJudge();
+        int n = 3;
+        int[][] trust = new int[][] { new int[] { 1, 2 }, new int[] { 2, 3 } }; // { new int[] { 1, 3 }, new int[] { 2, 3 }, new int[] { 3, 1 } };,
+        int judge = tj.FindJudge(n, trust);
+
         TrieFileSystem fs = new TrieFileSystem();
         bool bRet = fs.CreatePath("/leet", 1);
         bRet = fs.CreatePath("/leet/code", 2);

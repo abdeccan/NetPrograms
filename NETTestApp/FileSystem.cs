@@ -43,6 +43,7 @@ namespace NETTestApp
                     }
                     else
                     {
+                        // the parent path is not there in the map, return false
                         return false;
                     }
                 }
@@ -51,7 +52,7 @@ namespace NETTestApp
             }
 
             if (node.Value != -1)
-                return false;
+                return false; // already the path existed before we created, so return false
             else
             {
                 node.Value = value;
