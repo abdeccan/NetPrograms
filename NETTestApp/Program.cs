@@ -25,6 +25,14 @@ class Program
 
     public static void Main(string[] args)
     {
+        CheapestFlight cf = new CheapestFlight();
+        int[][] flights = new int[][] { new int[] { 0, 1, 100 },
+                                        new int[] { 1, 2, 100 },
+                                        new int[] { 2, 0, 100 },
+                                        new int[] {1,3,600},
+                                        new int[] {2,3,200 }};
+        int cheapest = cf.FindCheapestPrice(4, flights, 0, 3, 1);
+
         TownJudge tj = new TownJudge();
         int n = 3;
         int[][] trust = new int[][] { new int[] { 1, 2 }, new int[] { 2, 3 } }; // { new int[] { 1, 3 }, new int[] { 2, 3 }, new int[] { 3, 1 } };,
