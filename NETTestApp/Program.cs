@@ -25,6 +25,10 @@ class Program
 
     public static void Main(string[] args)
     {
+        DiameterBinTree.TestDiameterBinTree();
+
+        SameTree.TestSameTree();
+
         CheapestFlight cf = new CheapestFlight();
         int[][] flights = new int[][] { new int[] { 0, 1, 100 },
                                         new int[] { 1, 2, 100 },
