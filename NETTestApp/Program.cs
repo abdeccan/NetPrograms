@@ -25,6 +25,8 @@ class Program
 
     public static void Main(string[] args)
     {
+        even_odd_levels.TestEvenOddLevels();
+
         DiameterBinTree.TestDiameterBinTree();
 
         SameTree.TestSameTree();
