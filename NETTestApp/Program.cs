@@ -25,6 +25,10 @@ class Program
 
     public static void Main(string[] args)
     {
+        SquaresOfSortedArray.Test();
+
+        MaxBinaryNum.Test();
+
         even_odd_levels.TestEvenOddLevels();
 
         DiameterBinTree.TestDiameterBinTree();
