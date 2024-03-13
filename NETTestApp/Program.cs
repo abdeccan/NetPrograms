@@ -25,6 +25,8 @@ class Program
 
     public static void Main(string[] args)
     {
+        LL_RemoveNthFromEnd.Test();
+
         SquaresOfSortedArray.Test();
 
         MaxBinaryNum.Test();
